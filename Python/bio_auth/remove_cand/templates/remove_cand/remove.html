@@ -1,0 +1,32 @@
+{% extends 'temp/base.html' %}
+
+{% block base %}
+
+	<form method="POST">
+
+<h1> View Remove</h1>
+ 		<table align="center" border="1" class="table">
+
+ 			<tr>
+ 				<th>candidate id</th>
+                <th>registration id</th>
+ 				<th>candidate name</th>
+ 				<th>post</th>
+ 			</tr>
+
+            {% if objval %}
+                {% for obj in objval %}
+
+                    <tr>
+ 				<th>{{ obj.cid }}</th>
+ 				<th> {{ obj.rid }}</th>
+                 <th>candidate name</th>
+ 				<th>post</th>
+ 			</tr>
+                {% endfor %}
+ 			{%  endif %}
+
+ 		</table>
+
+    </form>
+    {% endblock %}

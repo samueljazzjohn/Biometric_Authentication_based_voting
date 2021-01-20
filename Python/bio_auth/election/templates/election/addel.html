@@ -1,0 +1,28 @@
+{% extends 'temp/base.html' %}
+
+{% block base %}
+ 	<form method="POST">
+        {% csrf_token %}
+
+        <h1 align="center">Election</h1>
+ 		<table align="center">
+ 			<tr>
+ 				<td>nomination date</td>
+ 				<td><input type="text" name="nomd"class="form-control"><br></td>
+ 			</tr>
+ 			<tr>
+ 				<td>withdraw date</td>
+ 				<td><input type="text" name="withd"  class="form-control"><br></td>
+ 			</tr>
+ 			<tr>
+ 				<td>election date</td>
+ 				<td><input type="text" name="ed"class="form-control"><br></td>
+ 			</tr>
+ 			<td></td>
+ 				<td><input type="submit" value="submit"  name="elsubmit" class="btn btn-primary"></td>
+ 			</tr>
+ 		</table>
+ 	</form>
+
+
+{% endblock %}

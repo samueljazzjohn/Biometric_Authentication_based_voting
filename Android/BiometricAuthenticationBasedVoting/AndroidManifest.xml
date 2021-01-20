@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.biometricauthenticationbasedvoting"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/aa"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.biometricauthenticationbasedvoting.Login"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.biometricauthenticationbasedvoting.P_viewlawsanddetails"
+            android:label="@string/title_activity_p_viewlawsanddetails" >
+        </activity>
+        <activity
+            android:name="com.example.biometricauthenticationbasedvoting.P_registration"
+            android:label="@string/title_activity_p_registration" >
+        </activity>
+        <activity
+            android:name="com.example.biometricauthenticationbasedvoting.P_viewelection"
+            android:label="@string/title_activity_p_viewelection" >
+        </activity>
+        <activity
+            android:name="com.example.biometricauthenticationbasedvoting.U_submitnomination"
+            android:label="@string/title_activity_u_submitnomination" >
+        </activity>
+        <activity
+            android:name="com.example.biometricauthenticationbasedvoting.U_viewcandidatelist"
+            android:label="@string/title_activity_u_viewcandidatelist" >
+        </activity>
+        <activity
+            android:name="com.example.biometricauthenticationbasedvoting.U_viewelectionmanifesto"
+            android:label="@string/title_activity_u_viewelectionmanifesto" >
+        </activity>
+        <activity
+            android:name="com.example.biometricauthenticationbasedvoting.U_postelectionmanifesto"
+            android:label="@string/title_activity_u_postelectionmanifesto" >
+        </activity>
+        <activity
+            android:name="com.example.biometricauthenticationbasedvoting.U_update"
+            android:label="@string/title_activity_u_update" >
+        </activity>
+        <activity
+            android:name="com.example.biometricauthenticationbasedvoting.U_viewelectionresult"
+            android:label="@string/title_activity_u_viewelectionresult" >
+        </activity>
+        <activity
+            android:name="com.example.biometricauthenticationbasedvoting.C_electionmanifesto"
+            android:label="@string/title_activity_c_electionmanifesto" >
+        </activity>
+        <activity
+            android:name="com.example.biometricauthenticationbasedvoting.C_withdrowalnomination"
+            android:label="@string/title_activity_c_withdrowalnomination" >
+        </activity>
+        <activity
+            android:name="com.example.biometricauthenticationbasedvoting.Publichome"
+            android:label="@string/title_activity_publichome" >
+        </activity>
+        <activity
+            android:name="com.example.biometricauthenticationbasedvoting.Userhome"
+            android:label="@string/title_activity_userhome" >
+        </activity>
+        <activity
+            android:name="com.example.biometricauthenticationbasedvoting.Candidatehome"
+            android:label="@string/title_activity_candidatehome" >
+        </activity>
+        <activity
+            android:name="com.example.biometricauthenticationbasedvoting.View_candidate"
+            android:label="@string/title_activity_view_candidate" >
+        </activity>
+    </application>
+
+</manifest>

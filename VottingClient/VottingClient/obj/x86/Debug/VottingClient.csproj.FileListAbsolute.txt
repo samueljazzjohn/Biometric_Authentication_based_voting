@@ -1,0 +1,22 @@
+E:\2020prj\VottingClient\VottingClient\bin\Debug\VottingClient.exe
+E:\2020prj\VottingClient\VottingClient\bin\Debug\VottingClient.pdb
+E:\2020prj\VottingClient\VottingClient\obj\x86\Debug\VottingClient.Form1.resources
+E:\2020prj\VottingClient\VottingClient\obj\x86\Debug\VottingClient.Properties.Resources.resources
+E:\2020prj\VottingClient\VottingClient\obj\x86\Debug\VottingClient.csproj.GenerateResource.Cache
+E:\2020prj\VottingClient\VottingClient\obj\x86\Debug\VottingClient.exe
+E:\2020prj\VottingClient\VottingClient\obj\x86\Debug\VottingClient.pdb
+E:\2020prj\VottingClient\VottingClient\obj\x86\Debug\VottingClient.frm_matching.resources
+E:\2020prj\VottingClient\VottingClient\obj\x86\Debug\VottingClient.frm_main.resources
+E:\2020prj\VottingClient\VottingClient\obj\x86\Debug\VottingClient.csprojResolveAssemblyReference.cache
+G:\Completed_Project\Desktop applications\VottingClient\VottingClient\obj\x86\Debug\VottingClient.exe
+G:\Completed_Project\Desktop applications\VottingClient\VottingClient\obj\x86\Debug\VottingClient.pdb
+J:\jazz\VottingClient\VottingClient\obj\x86\Debug\VottingClient.exe
+J:\jazz\VottingClient\VottingClient\obj\x86\Debug\VottingClient.pdb
+J:\jazz\VottingClient\VottingClient\bin\Debug\VottingClient.exe
+J:\jazz\VottingClient\VottingClient\bin\Debug\VottingClient.pdb
+J:\jazz\VottingClient\VottingClient\obj\x86\Debug\VottingClient.csprojResolveAssemblyReference.cache
+J:\jazz\VottingClient\VottingClient\obj\x86\Debug\VottingClient.Form1.resources
+J:\jazz\VottingClient\VottingClient\obj\x86\Debug\VottingClient.frm_main.resources
+J:\jazz\VottingClient\VottingClient\obj\x86\Debug\VottingClient.frm_matching.resources
+J:\jazz\VottingClient\VottingClient\obj\x86\Debug\VottingClient.Properties.Resources.resources
+J:\jazz\VottingClient\VottingClient\obj\x86\Debug\VottingClient.csproj.GenerateResource.Cache

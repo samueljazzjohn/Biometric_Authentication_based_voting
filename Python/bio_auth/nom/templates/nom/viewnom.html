@@ -1,0 +1,25 @@
+{% extends 'temp/base.html' %}
+{% block base %}
+        <h2 class="aligncenter">ACCEPT/REJECT NOMINATION</h2>
+ 		<table align="center" border="1" class="table">
+ 			<tr>
+ 				<th>name</th>
+ 				<th>post</th>
+ 				<th>Accept </th>
+ 				<th>Reject</th>
+ 			</tr>
+            {% if objval %}
+                {% for obj in objval %}
+
+
+                <tr>
+                    <th>{{ obj.1 }}</th>
+ 				<th>{{ obj.10 }}</th>
+             <td><a href="{% url 'accept1' idd=obj.9 %}">accept</a> </td>
+        <td><a href="{% url 'reject1' idd=obj.9 %}">reject</a> </td>
+ 			</tr>
+                {% endfor %}
+            {% endif %}
+
+ 		</table>
+{% endblock %}

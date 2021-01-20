@@ -1,0 +1,42 @@
+{% extends 'temp/base.html' %}
+
+{% block base %}
+
+
+<h1> View Register</h1>
+ 		<table align="center" border="1" class="table ">
+ 			<tr>
+ 				<th>rid</th>
+ 				<th>name</th>
+ 				<th>address</th>
+ 				<th>phone</th>
+ 				<th>email</th>
+ 				<th>adhaar</th>
+ 				<th>image</th>
+ 				<th>Accept</th>
+ 				<th>Reject</th>
+ 			</tr>
+
+            {% if objval %}
+                {% for obj in objval %}
+
+            <tr>
+            <th>{{ obj.rid }}</th>
+            <th>{{ obj.username }}</th>
+            <th>{{ obj.address }}</th>
+            <th>{{ obj.phone }}</th>
+            <th>{{ obj.email }}</th>
+            <th>{{ obj.field_adhar }}</th>
+            <th>{{ obj.image }}</th>
+
+                <td><a href="{% url 'accept2' idd=obj.rid %}">accept</a> </td>
+        <td><a href="{% url 'reject2' idd=obj.rid %}">reject</a> </td>
+ 			</tr>
+
+                {% endfor %}
+            {% endif %}
+
+ 		</table>
+
+
+{% endblock %}

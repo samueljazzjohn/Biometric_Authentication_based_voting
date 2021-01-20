@@ -1,0 +1,29 @@
+{% extends 'temp/base.html' %}
+
+{% block base %}
+
+	<form method="POST">
+        <h2 class="aligncenter">ACCEPT/REJECT WITHDRAW REQUEST</h2><br>
+ 		<table align="center"  border="1px">
+ 			<tr>
+ 				<th>name</th>
+ 				<th>post</th>
+ 				<th>reason</th>
+ 			</tr>
+            {% if objval %}
+                {% for obj in objval %}
+
+            <tr>
+ 				<th>{{ obj.1 }}</th>
+ 				<th>{{ obj.13 }}</th>
+ 				<th>{{ obj.14 }}</th>
+             <td><a href="{% url 'accept' idd=obj.9 %}">accept</a> </td>
+        <td><a href="{% url 'reject' idd=obj.9 %}">reject</a> </td>
+
+ 			</tr>
+                {% endfor %}
+            {% endif %}
+
+ 		</table>
+    </form>
+{% endblock %}
